@@ -1,0 +1,52 @@
+.heading {
+    font-size: 2rem;
+    color: #091353;
+    font-weight: bolder;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("./backgroundImage.jpg");
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 60vh;
+    background-color: white;
+    width:auto;
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+.email,
+.password {
+    margin: 10px 70px;
+    border: none;
+    background-color: #eee;
+    color: #091353;
+    padding: 20px;
+    font-size: 1.5rem;
+}
+
+.email:focus,
+.password:focus {
+    outline: none;
+}
+
+.login {
+    border: none;
+    padding: 10px 15px;
+    margin: 10px;
+    font-size: 1.5rem;
+    color: white;
+    background-color: #6ECB63;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
